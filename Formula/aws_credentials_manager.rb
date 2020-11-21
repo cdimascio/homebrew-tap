@@ -5,7 +5,7 @@ class AwsCredentialsManager < Formula
   sha256 "592241b2c1efe398b3b3f473e43704cde934ed203d0b66e2ef3cd87b00f88bf6"
   license "MIT"
 
-  depends_on "bash" => :run
+  depends_on "bash"
 
   def install
     bin.install "awscm"
