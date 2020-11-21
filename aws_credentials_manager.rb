@@ -6,12 +6,14 @@ class HomebrewAwsCredentialsManager < Formula
   # sha256 "3cecb3fe5e116c7427370cfd4d1b7f7c47d4482969d417126dc7c78ebf56ff18"
   license "MIT"
 
+  depends_on "bash" => :run
+
   def install
     # # move 'myscript.sh' under #{prefix}/bin/
     # bin.install "cma.sh"
 
     # OR move 'myscript.sh' to #{prefix}/bin/mybettername
-    bin.install "cma.sh" => "cma"
+    bin.install "bin/awscm.sh" => "awscm"
 
     # # OR move *.sh under bin/
     # bin.install Dir["*.sh"]
