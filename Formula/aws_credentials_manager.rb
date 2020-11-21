@@ -1,8 +1,8 @@
 class AwsCredentialsManager < Formula
   desc "Manage multiple AWS credentials files e.g. ~/.aws/credentials"
   homepage "https://github.com/cdimascio/aws-credentials-manager"
-  url "https://github.com/cdimascio/aws-credentials-manager/archive/v0.9.2.tar.gz"
-  sha256 "f8611273829c14782598472ca5228b399f12faf8bec3f476b0d19b44df2f0644"
+  url "https://github.com/cdimascio/aws-credentials-manager/archive/v0.10.0.tar.gz"
+  sha256 "592241b2c1efe398b3b3f473e43704cde934ed203d0b66e2ef3cd87b00f88bf6"
   license "MIT"
 
   depends_on "bash" => :run
