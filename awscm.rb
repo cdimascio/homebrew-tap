@@ -1,21 +1,16 @@
-class HomebrewAwsCredentialsManager < Formula
-  desc "manage and switch between multiple ~/.aws/credentials files"
-  homepage "http://github.com/cdimascio/homebrew-aws-credentials-manager"
-  url "https://github.com/cdimascio/homebrew-aws-credentials-manager/archive/v0.9.1.tar.gz"
-  version "0.9.0"
-  # sha256 "3cecb3fe5e116c7427370cfd4d1b7f7c47d4482969d417126dc7c78ebf56ff18"
+class AwsCredentialsManager < Formula
+  desc "Manage multiple AWS credentials files e.g. ~/.aws/credentials"
+  homepage "https://github.com/cdimascio/aws-credentials-manager"
+  url "https://github.com/cdimascio/aws-credentials-manager/archive/v0.9.1.tar.gz"
+  sha256 "137083543278ced4f69dedf870f7bcb0ece04d01be8300b672ca3168fbdcfec3"
   license "MIT"
 
   depends_on "bash" => :run
 
   def install
-    # # move 'myscript.sh' under #{prefix}/bin/
-    # bin.install "cma.sh"
+    bin.install "awscm.sh" => "awscm"
+  end
 
-    # OR move 'myscript.sh' to #{prefix}/bin/mybettername
-    bin.install "bin/awscm.sh" => "awscm"
-
-    # # OR move *.sh under bin/
-    # bin.install Dir["*.sh"]
+  test do
   end
 end
