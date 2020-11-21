@@ -8,7 +8,7 @@ class AwsCredentialsManager < Formula
   depends_on "bash" => :run
 
   def install
-    bin.install "bin/cma.sh"
+    bin.install "awscm"
   end
 
   test do
