@@ -1,4 +1,4 @@
-# credentials-manager-aws
+# homebrew-tap
 
 ## How do I install these formulae?
 `brew install brew install cdimascio/homebrew-tap/aws_credentials_manager`
