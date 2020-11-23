@@ -1,9 +1,9 @@
 # credentials-manager-aws
 
 ## How do I install these formulae?
-`brew install cdimascio/aws-credentials-manager/awscm         `
+`brew install brew install cdimascio/homebrew-tap/aws_credentials_manager`
 
-Or `brew tap cdimascio/aws-credentials-manager` and then `brew install awscm`.
+Or `brew tap cdimascio/homebrew-tap` and then `brew install aws_credentials_manager`.
 
 ## Documentation
 `brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
