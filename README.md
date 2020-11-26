@@ -1,9 +1,13 @@
 # homebrew-tap
 
 ## How do I install these formulae?
-`brew install brew install cdimascio/homebrew-tap/aws_credentials_manager`
+`brew install cdimascio/tap/aws_config_manager`
 
-Or `brew tap cdimascio/homebrew-tap` and then `brew install aws_credentials_manager`.
+Or `brew tap cdimascio/tap` and then `brew install aws_config_manager`.
+
+## How do I Upgrade
+
+`brew upgrade cdimascio/tap/aws_config_manager`
 
 ## Documentation
 `brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
