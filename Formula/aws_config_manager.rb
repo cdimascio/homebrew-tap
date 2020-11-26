@@ -2,8 +2,8 @@ require "language/go"
 class AwsConfigManager < Formula
   desc "Manage multiple AWS config and credentials file pairs e.g. ~/.aws/credentials, ~/.aws/config"
   homepage "https://github.com/cdimascio/aws-config-manager"
-  url "https://github.com/cdimascio/aws-config-manager/archive/v2.0.0.tar.gz"
-  sha256 "b242dd4921693155fee7de1bcbf5a1f449572deccb34be9d7f28a2c92c67c091"
+  url "https://github.com/cdimascio/aws-config-manager/archive/v2.1.0.tar.gz"
+  sha256 "30dc2522c7bc774964539a4a1d0a67d79472f574c9c2c8ff5545abc7711dd4b3"
   license "MIT"
 
   go_resource "github.com/urfave/cli" do
