@@ -1,13 +1,29 @@
 # homebrew-tap
 
-## How do I install these formulae?
-`brew install cdimascio/tap/aws_config_manager`
+Welcome to the cdimascio homebrew tap 🍻!
 
-Or `brew tap cdimascio/tap` and then `brew install aws_config_manager`.
+## Formulae
 
-## How do I Upgrade
+### ♻️ SQS Replay
 
-`brew upgrade cdimascio/tap/aws_config_manager`
+Install: `brew install cdimascio/tap/sqs_replay`
+
+Upgrade: `brew upgrade cdimascio/tap/sqs_replay`
+
+### ⚙️ AWS Config Manager
+
+Install: `brew install cdimascio/tap/aws_config_manager`
+
+Upgrade: `brew upgrade cdimascio/tap/aws_config_manager`
+
+## Install the cdimascio/tap
+
+`brew tap cdimascio/tap`
+
+then install a formula by name
+
+`brew install sqs_replay`.
 
 ## Documentation
+
 `brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
